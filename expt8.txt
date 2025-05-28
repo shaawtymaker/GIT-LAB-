@@ -1,0 +1,28 @@
+
+command to display the last five commits in repo history
+
+git log --oneline -n 5
+
+
+git log -n 5 --pretty=format: " %h - %an, %ar : %S"
+
+
+
+
+
+git log --oneline -n 5
+d118a0d (HEAD -> master, origin/master, origin/HEAD) experiment 5 completed.
+4df5ef7 stash sample
+ae3709e expeiment 5.
+aab6984 (origin/expt4-branch, expt4-branch) experiment 4 completed.
+6e924db commit-2 for rebase
+
+
+
+git log -n 5 --pretty=format:"%h - %an, %ar : %s"
+d118a0d - shaawtymaker, 2 hours ago : experiment 5 completed.
+4df5ef7 - shaawtymaker, 2 hours ago : stash sample
+ae3709e - shaawtymaker, 2 hours ago : expeiment 5.
+aab6984 - shaawtymaker, 2 hours ago : experiment 4 completed.
+6e924db - shaawtymaker, 2 hours ago : commit-2 for rebase
+
