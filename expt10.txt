@@ -1,0 +1,16 @@
+Write the command to list all commits made by the author 
+between 28/05/2025 and 29/05/2025
+
+git log --author="shaawtymaker" --since="2025-05-28" --until="2025-05-29" --
+pretty=format:"%h - %ad - %s" --date=short
+
+
+--author="JohnDoe"  Filters commits by the author name
+ï· --since="2023-01-01" - Includes commits from January 1, 2023
+ï· --until="2023-12-31" - Includes commits up to December 31, 2023
+ï· --pretty=format:"%h - %ad - %s" â†’ Custom output format:
+o %h - Short commit hash
+o %ad - Commit date
+o %s - Commit message
+ï· --date=short Formats the date as YYYY-MM-DD
+
