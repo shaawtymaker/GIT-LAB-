@@ -16,3 +16,18 @@ git status
 to verify the update 
 git log --oneline
 
+the end.
+
+ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 941 bytes | 33.00 KiB/s, done.
+From https://github.com/shaawtymaker/GIT-LAB-
+   673f708..497d731  master     -> origin/master
+Updating 673f708..497d731
+error: Your local changes to the following files would be overwritten by merge:
+        expt3.txt
+Please commit your changes or stash them before you merge.
+Aborting
