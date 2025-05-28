@@ -38,3 +38,6 @@ This opens an editor where you can:
  edit>> Modify commit message
 
 
+
+
+conflict while merge.
