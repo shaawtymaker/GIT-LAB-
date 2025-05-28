@@ -1,0 +1,4 @@
+cherry pick a range  of commits
+
+git cherry-pick <first commit>^ <last commit>
+git cherry-pick <commit-1> <commit-2> <commit-3>
