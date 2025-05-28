@@ -16,6 +16,7 @@ git status
 to verify the update 
 git log --oneline
 
+<<<<<<< HEAD
 the end.
 
  git pull
@@ -31,3 +32,14 @@ error: Your local changes to the following files would be overwritten by merge:
         expt3.txt
 Please commit your changes or stash them before you merge.
 Aborting
+=======
+end of the experiment.
+
+>>>>>>> 497d7318195f02f002ef6ab20721c52ee4b250e6
+
+
+
+ git pull
+Auto-merging expt3.txt
+CONFLICT (content): Merge conflict in expt3.txt
+Automatic merge failed; fix conflicts and then commit the result.
