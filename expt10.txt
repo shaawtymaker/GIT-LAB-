@@ -14,3 +14,35 @@ o %ad - Commit date
 o %s - Commit message
 ï· --date=short Formats the date as YYYY-MM-DD
 
+output:
+
+git log --author="shaawtymaker" --since="2025-05-28" --until="2025-05-29" --pretty=format:" %h - %ad - %s" --date=short
+ 61a45e5 - 2025-05-29 - Merge branch 'cherrypick' to update the latest changes.
+ 8b1d624 - 2025-05-29 - experiment 10
+ 5cf930e - 2025-05-29 - experiment 9 completed.
+ 1970376 - 2025-05-29 - experiment 9 completed.
+ b92b600 - 2025-05-29 - experiment 9
+ bdac7aa - 2025-05-29 - experiment 9
+ 0ee9121 - 2025-05-29 - .
+ 2ffd8db - 2025-05-28 - experiment 1 completed.
+ 5552a89 - 2025-05-29 - .
+ a8549ce - 2025-05-29 - Experiment 8 completed.
+ d118a0d - 2025-05-29 - experiment 5 completed.
+ 4df5ef7 - 2025-05-29 - stash sample
+ ae3709e - 2025-05-29 - expeiment 5.
+ aab6984 - 2025-05-29 - experiment 4 completed.
+ 6e924db - 2025-05-28 - commit-2 for rebase
+ 06b8425 - 2025-05-28 - rebaseconflict
+ d6816e3 - 2025-05-28 - rebase conflict
+ 8afa7f2 - 2025-05-28 - commit-2 for rebase
+ af2ebf7 - 2025-05-28 - commit-1 for rebase
+ 9ac93d1 - 2025-05-28 - experiment 4 complete.
+ abeafd8 - 2025-05-28 - rebase.
+ dd3ffe4 - 2025-05-28 - rebasing
+ 3b8bee5 - 2025-05-28 - resolve conflict
+ 798ff93 - 2025-05-28 - merge conflict
+ 181ef69 - 2025-05-28 - merge conflict
+ 3404cb9 - 2025-05-28 - experiment 4.
+ f28b297 - 2025-05-28 - resloving merge conflicts
+ 9809666 - 2025-05-28 - resloving merge conflicts
+ 673f708 - 2025-05-28 - experiment 3.
