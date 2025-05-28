@@ -1,1 +1,3 @@
 this is my first github file.
+git reset <filename> - to unstage a file
+git reset --hard <commit-hash> - to reset changes to previous commit
