@@ -1,0 +1,18 @@
+pulling changes from remote repo 
+git pull origin <branch name>
+
+pulling:
+fetch : retrives the latest changes 
+merge : it will retrive the latest changes and merge them into the local branch.
+
+merge conflicts 
+stage and commit your changes before pulling from the repo
+as it might cause conflicts due to others working on the branch.
+add and commit resolved files.
+
+check status:
+git status 
+
+to verify the update 
+git log --oneline
+
