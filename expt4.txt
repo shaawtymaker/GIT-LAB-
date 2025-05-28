@@ -39,9 +39,12 @@ This opens an editor where you can:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 the end.
 =======
 
 
 conflict while merge.
 >>>>>>> 31cb4f48c9bde279871815fd7ac919d39e5aedf3
+=======
+>>>>>>> parent of 181ef69 (merge conflict)
