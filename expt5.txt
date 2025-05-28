@@ -2,4 +2,15 @@ stash changes
 switching branches 
 applying the stash changes 
 
+git stash - to stash changes, that are uncommited.
+git stash -m "with a message"
+
+git stash pop - it will apply the stash and delete the stash entry.
+git stash apply- apply the stash and retain the stash entry.
+git stash list - opens stash list.
+
+git stash apply stash@{n} - apply spefic stash. 
+git stash drop stash@{n} - to delete a specific stash.
+
+git stash clear - clears the stash list and all the stash entries.
 
