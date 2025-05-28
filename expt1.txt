@@ -4,3 +4,14 @@ git reset <filename> - to unstage a file
 git reset --hard <commit-hash> - to reset changes to previous commit
 
 git reset is for local working directory.
+
+expt1
+
+create a repo 
+connnect to the remote repo 
+create file
+add and stage the file 
+commit the file 
+push it
+
+
