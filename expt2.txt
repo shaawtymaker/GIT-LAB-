@@ -1,4 +1,5 @@
 . Find the Repository URL
+
 You need the URL of the repository you want to clone. This can be found on the repository page
 on GitHub, GitLab, Bitbucket, or other Git hosting services.
  For GitHub, navigate to the repository you want to clone.
@@ -8,6 +9,8 @@ o HTTPS (if you're unsure about SSH keys):
 https://github.com/username/repository-name.git
 o SSH (if you've set up SSH keys with GitHub):
 git@github.com:username/repository-name.git
+
+
 2. Clone the Repository
 Once you have the repository URL, follow these steps:
 Open your terminal (Command Prompt, Git Bash, or terminal in your IDE):
@@ -19,11 +22,15 @@ Example for HTTPS:
 git clone https://github.com/username/repository-name.git
 Example for SSH:
 git clone git@github.com:username/repository-name.git
+
+
 3. Navigate into the Cloned Repository
 After cloning, Git creates a new folder with the same name as the repository (unless you specify
 a different name).
 Change to that directory:
 cd repository-name
+
+
 4. Verify the Clone
 To check if the repository has been successfully cloned, you can list the files:
 ls
@@ -32,6 +39,8 @@ Also, check the remote URL using:
 git remote -v
 This should show the URL of the remote repository (e.g., origin
 https://github.com/username/repository-name.git).
+
+
 5. Pull Latest Changes (if needed)
 If you’ve already cloned the repository earlier, but want to get the latest changes, you can always
 pull the latest updates from the remote:
