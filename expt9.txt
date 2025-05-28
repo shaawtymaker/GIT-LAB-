@@ -2,3 +2,10 @@ cherry pick a range  of commits
 
 git cherry-pick <first commit>^ <last commit>
 git cherry-pick <commit-1> <commit-2> <commit-3>
+
+
+ git log --oneline
+b92b600 (HEAD -> master) experiment 9
+bdac7aa (origin/master, origin/cherrypick, origin/HEAD, cherrypick) experiment 9
+
+result after cherry pick.
