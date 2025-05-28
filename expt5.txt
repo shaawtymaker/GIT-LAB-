@@ -1,0 +1,5 @@
+stash changes 
+switching branches 
+applying the stash changes 
+
+
