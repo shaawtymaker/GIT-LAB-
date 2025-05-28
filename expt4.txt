@@ -1,0 +1,40 @@
+creating and switching branches 
+
+git branch- to view all branches 
+git branch <branch-name> : will create a new branch
+git checkout <branch-name> : will switch to the designated branch
+
+
+merging branches and resolving conflicts
+git checkout <branch-name>
+git merge <branch name you want to merge>
+git merge --abort (to cancel the merge)
+
+resolve the conflict 
+stage and commit the files 
+and push them to the branch.
+then merge the branches.
+
+
+rebasing and merging
+git checkout <branch-name>
+git rebase <branch-name-you want to rebase>
+
+conflicts during rebase 
+add and stage the files 
+git rebase --continue
+git rebase --abort (if you want to cancel the rebase)
+
+pushing a rebased branch 
+git push --force-with-lease (force push is required here.)
+
+
+git interactive rebase 
+git rebase -i HEAD~3
+
+This opens an editor where you can:
+ pick >> Keep commit as is
+ squash >> Merge commits
+ edit>> Modify commit message
+
+
