@@ -38,3 +38,4 @@ This opens an editor where you can:
  edit>> Modify commit message
 
 
+the end.
