@@ -4,6 +4,7 @@ git reset <filename> - to unstage a file
 git reset --hard <commit-hash> - to reset changes to previous commit
 
 git reset is for local working directory.
+<<<<<<< HEAD
 
 expt1
 
@@ -15,3 +16,5 @@ commit the file
 push it
 
 
+=======
+>>>>>>> c112f2f (added more contents to the file)
