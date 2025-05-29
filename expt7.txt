@@ -1,4 +1,5 @@
 stash.
+<<<<<<< Updated upstream
 
  nano expt7.txt
 PS C:\Users\akank\downloads\git> git add expt7.txt
@@ -53,3 +54,10 @@ To https://github.com/shaawtymaker/GIT-LAB-.git
    7b3dd17..b913f63  master -> master
 PS C:\Users\akank\downloads\git> git push
 Everything up-to-date
+
+
+
+
+new branch using stash.
+=======
+>>>>>>> Stashed changes
