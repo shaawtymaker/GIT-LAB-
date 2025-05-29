@@ -1,1 +1,55 @@
 stash.
+
+ nano expt7.txt
+PS C:\Users\akank\downloads\git> git add expt7.txt
+warning: in the working copy of 'expt7.txt', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\akank\downloads\git> git stash -m "expt7"
+Saved working directory and index state On master: expt7
+PS C:\Users\akank\downloads\git> git stash list
+stash@{0}: On master: expt7
+PS C:\Users\akank\downloads\git> git stash apply stash@{0}
+error: unknown switch `e'
+usage: git stash apply [--index] [-q | --quiet] [<stash>]
+
+    -q, --[no-]quiet      be quiet, only report errors
+    --[no-]index          attempt to recreate the index
+
+PS C:\Users\akank\downloads\git> git stash apply -q stash@{0}
+error: unknown switch `e'
+usage: git stash apply [--index] [-q | --quiet] [<stash>]
+
+    -q, --[no-]quiet      be quiet, only report errors
+    --[no-]index          attempt to recreate the index
+
+PS C:\Users\akank\downloads\git> git stash apply
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   expt7.txt
+
+PS C:\Users\akank\downloads\git> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   expt7.txt
+
+PS C:\Users\akank\downloads\git> git commit -m "expt7"
+[master b913f63] expt7
+ 1 file changed, 1 insertion(+)
+ create mode 100644 expt7.txt
+PS C:\Users\akank\downloads\git> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 18 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 272 bytes | 272.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shaawtymaker/GIT-LAB-.git
+   7b3dd17..b913f63  master -> master
+PS C:\Users\akank\downloads\git> git push
+Everything up-to-date
