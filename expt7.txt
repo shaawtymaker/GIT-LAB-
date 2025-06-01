@@ -118,15 +118,20 @@ rebase committ no 3.
 =======
 rebase committ no 3.
 
+<<<<<<< HEAD
 >>>>>>> 0a2f72d (commit3 for rebase)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1fc6f7a0a4da160d6439af7313a776dc30d0480f
 =======
 >>>>>>> 3caec9f590572e57d9919e1ffcc22cb86f72540d
 >>>>>>> 82c5e8c3ee9534797ed2d10903cf34ea10f97304
 
 
 rebase normal.
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 40d9c62 (normal rebase)
 =======
@@ -135,3 +140,5 @@ rebase committ no 3.
 >>>>>>> 0a2f72d (commit3 for rebase)
 =======
 >>>>>>> 90d2c16 (normal rebase)
+=======
+>>>>>>> 1fc6f7a0a4da160d6439af7313a776dc30d0480f
