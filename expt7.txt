@@ -97,3 +97,6 @@ Changes to be committed:
 
 
 interactive reabse tests
+i rebase test commit.
+rebase committ no 3.
+
