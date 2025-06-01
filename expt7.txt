@@ -101,6 +101,7 @@ i rebase test commit.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 rebase committ no 3.
 
 =======
@@ -109,6 +110,10 @@ rebase committ no 3.
 rebase committ no 3.
 
 >>>>>>> 69cea0bfc6fc556599cee9a990c1714ba39eec3f
+=======
+rebase committ no 3.
+
+>>>>>>> 0a2f72d (commit3 for rebase)
 =======
 rebase committ no 3.
 
