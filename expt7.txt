@@ -122,3 +122,6 @@ rebase committ no 3.
 =======
 >>>>>>> 3caec9f590572e57d9919e1ffcc22cb86f72540d
 >>>>>>> 82c5e8c3ee9534797ed2d10903cf34ea10f97304
+
+
+rebase normal.
