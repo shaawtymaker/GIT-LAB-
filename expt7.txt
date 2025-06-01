@@ -127,8 +127,11 @@ rebase committ no 3.
 
 
 rebase normal.
+<<<<<<< HEAD
 >>>>>>> 40d9c62 (normal rebase)
 =======
 rebase committ no 3.
 
 >>>>>>> 0a2f72d (commit3 for rebase)
+=======
+>>>>>>> 90d2c16 (normal rebase)
