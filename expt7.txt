@@ -99,7 +99,12 @@ Changes to be committed:
 interactive reabse tests
 i rebase test commit.
 <<<<<<< HEAD
+<<<<<<< HEAD
 rebase committ no 3.
 
 =======
 >>>>>>> 2826ff1 (commit2 for rebase)
+=======
+rebase committ no 3.
+
+>>>>>>> 69cea0bfc6fc556599cee9a990c1714ba39eec3f
